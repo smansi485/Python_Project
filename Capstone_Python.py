@@ -10,8 +10,8 @@ def generate_otp():
 def send_otp_email(recipient_email, otp):
     smtp_server="smtp.gmail.com"
     smtp_port=587
-    sender_email="smansi485@gmail.com"
-    sender_password="ccev xwbd bsah pyqq"
+    sender_email=""
+    sender_password=""
     message= MIMEMultipart("alternative")
     subject="The OTP is"
     body= f"Your OTP code is {otp}."
